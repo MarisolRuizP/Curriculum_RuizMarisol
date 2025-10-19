@@ -41,7 +41,7 @@ h3 {
 img {
     display: block;
     margin: 20px auto;
-    border-radius: 10%;
+    border-radius: 15%;
     border: 3px solid #0f3460;
 }
 
@@ -50,7 +50,7 @@ img {
     margin: 20px 0;
     padding: 15px;
     background-color: #16213e;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .contactitos a {
@@ -60,16 +60,16 @@ img {
 
 section {
     background-color: #16213e;
-    padding: 20px;
+    padding: 10px;
     margin: 20px 0;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 article {
     margin: 15px 0;
     padding: 15px;
     background-color: #0f3460;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 footer {
@@ -100,3 +100,32 @@ td {
     text-align: center;
     vertical-align: top;
 }
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#index {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        grid-column: 1;
+    }
+}
+
+
+
